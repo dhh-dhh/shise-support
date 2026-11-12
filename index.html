@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>支持 · Support — 拾色四季 Shise</title>
+<meta name="description" content="拾色四季（Shise）使用帮助与联系方式。Support and contact for Shise, an on-device photo browser for iOS.">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#16181d; --muted:#5c6470; --line:#e5e7eb;
+    --tint:#f6f7f9; --accent:#1f6feb;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#101114; --fg:#e9ecf1; --muted:#9aa3af; --line:#282c34; --tint:#171a1f; --accent:#79aaff; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:16px/1.75 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    padding:48px 20px 96px;
+  }
+  main{max-width:720px;margin:0 auto}
+  header{border-bottom:1px solid var(--line);padding-bottom:24px}
+  h1{font-size:28px;line-height:1.3;margin:0 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:15px;margin:0}
+  nav.lang{display:flex;gap:8px;margin:20px 0 0}
+  nav.lang a{font-size:14px;text-decoration:none;color:var(--fg);border:1px solid var(--line);background:var(--tint);padding:6px 14px;border-radius:999px}
+  nav.lang a:hover{border-color:var(--accent);color:var(--accent)}
+  h2{font-size:19px;margin:40px 0 10px}
+  h3{font-size:16px;margin:26px 0 6px}
+  p{margin:8px 0}
+  .card{background:var(--tint);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:20px 0}
+  .card p{margin:0}
+  .divider{height:1px;background:var(--line);margin:44px 0}
+  a{color:var(--accent)}
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+  video{width:220px;max-width:60%;border-radius:16px;border:1px solid var(--line);background:#000;display:block;margin:12px 0 4px}
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>拾色四季 · 支持</h1>
+  <p class="sub">Shise — Support</p>
+  <nav class="lang">
+    <a href="#zh">简体中文</a>
+    <a href="#en">English</a>
+  </nav>
+</header>
+
+<div class="card">
+  <p>遇到问题、想反馈建议，或需要协助？发邮件到
+  <a href="mailto:spduan@mail.ustc.edu.cn">spduan@mail.ustc.edu.cn</a>，
+  请附上 iPhone 型号、iOS 版本、拾色四季版本，以及问题出现前的操作。请勿发送包含隐私的照片或完整图库。</p>
+</div>
+
+<h2 id="zh">简体中文</h2>
+
+<h3>拾色四季是什么</h3>
+<p>拾色四季是一款 iOS 应用，帮你在本机按颜色和拍摄季节重新浏览照片，并可制作拼图海报、在确认后把照片加入系统相册的专辑。颜色分析在设备上完成，不上传到开发者服务器。</p>
+
+<h3>常见问题</h3>
+
+<p><strong>为什么一定要授予相册权限？</strong><br>
+拾色四季只读取你授权的照片。没有权限就无法显示、分析或整理任何照片。你可以先选“有限访问”，只允许需要的照片；再在应用中选择相册与日期范围。按色写入系统相册需要完整照片访问权限。</p>
+
+<p><strong>颜色分类和我看到的不一样，是出错了吗？</strong><br>
+主色是缩略图统计出来的结果，不是物体识别，也不是审美判断。大面积背景、强烈光线、滤镜都会影响结果。你可以在照片详情中手动修正颜色，手动结果优先于自动结果，也可恢复自动分类。「其他复核」提供上一步撤销。</p>
+
+<p><strong>为什么有些照片显示“未识别”？</strong><br>
+「待分析 / 未识别」表示尚未完成分析或照片读取失败；「其他」表示已分析，但没有足够明确的主色。先尝试「本机重试」；若照片仅在 iCloud，可明确允许下载后重试，但网络或系统限制仍可能导致失败。</p>
+
+<p><strong>季节是按什么划分的？</strong><br>
+按照片拍摄日期所在的月份，把 3–5 月算作春天、6–8 月夏天、9–11 月秋天、12–2 月冬天。这是北半球的月份约定，不识别画面里是哪个季节。没有拍摄时间的照片可以在“无拍摄时间”里单独查看。</p>
+
+<p><strong>拾色四季会上传或备份我的照片吗？</strong><br>
+不会。应用没有账号系统，也不含第三方统计 SDK。详见<a href="./privacy.html">隐私政策</a>。</p>
+
+<p><strong>会删除或移动我的原图吗？</strong><br>
+不会。把照片加入相册只是给照片添加一个相册归属，原图位置不变。你也可以在系统“照片”里随时把照片移出那个相册。</p>
+
+<p><strong>换手机后收藏和分类结果还在吗？</strong><br>
+拾色四季不提供应用自建的跨设备同步，也不保证换机后恢复收藏或分类结果。iOS 备份与迁移是否恢复本地数据，取决于你的系统设置；删除应用后重新安装可能需要重新分析。</p>
+
+<p><strong>系统要求</strong><br>
+需要 iOS 18.0 或更高版本，仅支持 iPhone。</p>
+
+<p><strong>购买与退款</strong><br>
+购买前请以 App Store 页面显示的价格与购买项目为准。涉及 Apple 处理的购买时，退款可在 <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a> 申请。</p>
+
+<div class="divider"></div>
+
+<h2 id="en">English</h2>
+
+<h3>What Shise is</h3>
+<p>Shise is an iOS app that helps you browse photos by color and by the season they were taken. It can build poster collages and, after you confirm, add photos to albums in the Photos app. Color analysis runs on your device and is not uploaded to the developer's servers.</p>
+
+<h3>Frequently asked questions</h3>
+
+<p><strong>Why does the app need photo access?</strong><br>
+Shise only reads photos you allow. Without access it cannot display, analyze, or organize anything. You can start with limited access to selected photos, then choose albums and dates in Shise. Organizing system albums requires full photo access.</p>
+
+<p><strong>The color label doesn't match what I see. Is it broken?</strong><br>
+The dominant color is computed from a thumbnail. It is a statistical sort, not object recognition or a judgment of the photo. Large backgrounds, strong light, and filters all affect the result. You can correct a color by hand from the photo detail view; manual choices take priority and can be reset to automatic. Review Other offers a single-step undo.</p>
+
+<p><strong>Why does a photo show as not recognized?</strong><br>
+Pending or unrecognized means analysis has not finished or an image could not be loaded. Other is a separate category for analyzed photos without a clear dominant color. Try Retry locally first. If a photo is only in iCloud, explicitly allow downloads to retry; network or system limits may still prevent loading.</p>
+
+<p><strong>How are seasons determined?</strong><br>
+By the capture month: March–May is spring, June–August summer, September–November autumn, December–February winter. This is a Northern Hemisphere month convention; the app does not detect the season in the picture. Photos without a capture date are listed separately.</p>
+
+<p><strong>Does Shise upload or back up my photos?</strong><br>
+No. There is no account system and no third-party analytics SDK. See the <a href="./privacy.html">privacy policy</a>.</p>
+
+<p><strong>Will it delete or move my originals?</strong><br>
+No. Adding photos to an album only adds an album membership; originals stay where they are. You can remove them from that album in the Photos app at any time.</p>
+
+<p><strong>Do favorites and analysis survive a new phone?</strong><br>
+Shise does not provide its own cross-device sync or guarantee restoration on a new phone. iOS backups or migration may restore local data depending on your settings. Reinstallation may require analysis again.</p>
+
+<p><strong>Requirements</strong><br>
+iOS 18.0 or later. iPhone only.</p>
+
+<p><strong>Purchases and refunds</strong><br>
+Check the App Store listing for the current price and purchase options. For purchases handled by Apple, request refunds at <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>.</p>
+
+<h2 id="demo">功能演示 · Demo</h2>
+<p>27 秒，中文界面：选择照片范围、按颜色浏览、按季节制作九宫格海报。A 27-second walkthrough in Chinese: choosing a photo scope, browsing by color, and making a seasonal nine-grid poster.</p>
+<video controls preload="metadata" playsinline src="./demo.mp4"></video>
+<p><a href="./demo.mp4">下载视频 / Download the video</a></p>
+
+<footer>
+  拾色四季 Shise v1.0　·　段哈哈的两元店　·　<a href="./privacy.html">隐私政策 / Privacy</a>　·　<a href="mailto:spduan@mail.ustc.edu.cn">spduan@mail.ustc.edu.cn</a>
+</footer>
+
+</main>
+</body>
+</html>
